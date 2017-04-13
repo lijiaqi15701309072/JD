@@ -1,0 +1,199 @@
+@charset "UTF-8";
+    /*sub-banner部分start*/
+    .sub-banner {
+        position: relative;
+        /*z-index: -1;*/
+    }
+    .sub-banner a {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 644px;
+        background: url(../images/sub-banner.jpg) no-repeat center top;
+    }
+    /*sub-banner部分end*/
+
+    /*main部分start*/
+    .main {
+        position: relative;
+    }
+    .main-slide {
+        float: left;
+        position: relative;
+        margin: 12px 0 0 220px;
+    }
+    .circle {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .circle li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        color: #fff;
+        margin: 0 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 18px;
+        background-color: #3E3E3E;
+    }
+    .circle .current {
+        background-color: #B61B1F;
+    }
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        margin-top: -31px;
+        width: 28px;
+        height: 62px;
+        color: #fff;
+        background: rgba(0,0,0, 0.4);
+        text-align: center;
+        font: 22px/62px "simsun";
+    }
+    /*.arrow a:hover {*/
+        /*background: rgba(0,0,0, 0.7);*/
+    /*}*/
+    .arrow .arrow-left {
+        left: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .arrow .arrow-right {
+        right: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .main-news {
+        float: right;
+        margin-top: 12px;
+    }
+    .main-news-faster {
+        width: 248px;
+        height: 372px;
+        overflow: hidden;
+        margin-bottom: 5px;
+        border: 1px solid #E4E4E4;
+    }
+    .main-news-faster-top {
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;       /*dashed---虚线---大使的*/
+    }
+    .main-news-faster-top-title {
+        height: 32px;
+        padding: 0 15px;
+        border-bottom: 1px dotted #E8E8E7;       /*dotted...点线...刀剃的*/
+    }
+    .main-news-faster-top-title h3 {
+        float: left;
+        font: 16px/32px "microsoft yahei";
+    }
+    .main-news-faster-top-title a {
+        float: right;
+        line-height: 32px;
+        font-family: consolas;
+    }
+    .main-news-faster-top-content {
+        margin: 5px 0 0 15px;
+    }
+    .main-news-faster-top-content li {
+        line-height: 24px;
+    }
+    .main-news-faster-top-content span {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .main-news-faster-bottom ul {
+        width: 260px;
+    }
+    .main-news-faster-bottom li {
+        float: left;
+        width: 62px;
+        height: 70px;
+        margin-left: -1px;
+        margin-top: -1px;
+        border: 1px solid #E8E8E7;
+        border-top: 0;
+    }
+    .main-news-faster-bottom a {
+        position: relative;
+        display: block;
+        line-height: 30px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .main-news-faster-bottom i {
+        position: absolute;
+        left: 18px;
+        top: 13px;
+        width: 25px;
+        height: 25px;
+        background: url(../images/fly.png) no-repeat;
+    }
+    i.main-news-faster-bottom-icon2 {
+        background-position: 0 -25px;
+    }
+    i.main-news-faster-bottom-icon3 {
+        background-position: 0 -50px;
+    }
+    i.main-news-faster-bottom-icon4 {
+        background-position: 0 -75px;
+    }
+    i.main-news-faster-bottom-icon5 {
+        background-position: 0 -100px;
+    }
+    i.main-news-faster-bottom-icon6 {
+        background-position: 0 -125px;
+    }
+    i.main-news-faster-bottom-icon7 {
+        background-position: 0 -150px;
+    }
+    i.main-news-faster-bottom-icon8 {
+        background-position: 0 -175px;
+    }
+    i.main-news-faster-bottom-icon9 {
+        background-position: 0 -200px;
+    }
+    i.main-news-faster-bottom-icon10 {
+        background-position: 0 -225px;
+    }
+    i.main-news-faster-bottom-icon11 {
+        background-position: 0 -250px;
+    }
+    i.main-news-faster-bottom-icon12 {
+        background-position: 0 -275px;
+    }
+    /*main部分end*/
+
+    /*today部分start*/
+    .today {
+        /*padding: 10px 0 40px 0;*/
+        margin: 10px auto 40px;
+        position: relative;
+    }
+    .today-left {
+        float: left;
+        width: 210px;
+    }
+    .today-left a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url(../images/today.png) left bottom;
+    }
+    .today-right {
+        position: relative;
+        float: left;
+        width: 1000px;
+        overflow: hidden;
+    }
+    .today-right ul {
+        width: 410%;
+    }
+    .today-right li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*today部分end*/
